@@ -1,4 +1,4 @@
-class TicketsController < ActionController::Base
+class TicketsController < ApplicationController
   before_filter :authenticate_user!
 
   def index
